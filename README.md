@@ -118,6 +118,12 @@ Guides:
 
 ---
 
+## 🆕 Recent Frontend Update
+
+*   **Issue #7 — Transaction History:** Added transaction history visibility in the dashboard flow so users can review recent activity in one place.
+
+---
+
 ## 🤝 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
