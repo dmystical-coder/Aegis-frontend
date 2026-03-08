@@ -1,9 +1,9 @@
 "use client";
 
 import { VaultAPYChart } from "../components/charts/VaultAPYChart";
+import { TransactionHistoryList } from "@/components/transactions/TransactionHistoryList";
 import Link from "next/link";
 import { TrendingUp, Shield, BarChart3, ArrowUpRight } from "lucide-react";
-import { useState } from "react";
 import { RiskChart } from "./components/RiskChart";
 import { RiskBadge } from "./components/RiskBadge";
 
@@ -62,6 +62,8 @@ export default function Home() {
             <RiskChart />
             <VaultAPYChart vaultId="main-vault" />
             
+            <TransactionHistoryList />
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                <div className="bg-card border border-border p-6 rounded-2xl hover:border-primary/50 transition-colors group cursor-pointer">
                   <div className="flex justify-between items-start mb-4">
